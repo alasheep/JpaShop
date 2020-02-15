@@ -7,10 +7,10 @@ spring:
     #    password:
     #    driver-class-name: org.h2.Driver
 
-    url: jdbc:mariadb://rds-mariadb.ch4ipcxitqs1.ap-northeast-2.rds.amazonaws.com:3306/wickies?useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mariadb://spring-boot-rds.cwoiknsupemn.us-east-2.rds.amazonaws.com/spring_boot?useUnicode=yes&characterEncoding=UTF-8
     driver-class-name: org.mariadb.jdbc.Driver
-    username: root
-    password: 1945
+    username: alasheep
+    password: 19451945
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
